@@ -36,7 +36,7 @@ def get_primes_mp(n):
     primes = pool.map(is_prime, range(2, n + 1))
     pool.close()
     pool.join()
-    return 
+    return primes
     
 def benchmark(n):
     import time
