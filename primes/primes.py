@@ -28,6 +28,7 @@ def get_primes(n):
         return [2]
     if n == 3:
         return [2, 3]
+    n += 1
     sieve = numpy.ones(n // 3 + (n % 6 == 2), dtype=bool)
     for i in range(1, int(n ** 0.5) // 3 + 1):
         if sieve[i]:
