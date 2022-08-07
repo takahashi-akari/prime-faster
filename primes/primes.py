@@ -22,7 +22,6 @@ def is_prime(n):
     return True
 
 def get_primes(n):
-    n -= 1
     if n < 2:
         return []
     if n == 2:
