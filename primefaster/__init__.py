@@ -1,1 +1,1 @@
-from prime-faster.prime-faster import *
+from primefaster.primefaster import *
