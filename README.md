@@ -15,16 +15,15 @@ $ pip install primes
 ```python
 import primes
 
-primes.is_prime(7)
+print(primes.is_prime(7))
 # True
-primes.get_primes(10)
+print(primes.get_primes(10))
 # [2, 3, 5, 7]
-primes.get_primes_parallel(10)
+print(primes.get_primes_mp(10, 4))
 # [2, 3, 5, 7]
 ```
 
-parallel is multi-threaded and uses the multiprocessing module.
-
+mp is the multiprocessing version of the algorithm.
 
 ## License
 

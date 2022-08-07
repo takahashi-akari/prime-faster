@@ -30,9 +30,29 @@ def get_primes(n):
             primes.append(i)
     return primes
 
-def get_primes_parallel(n, n_processes):
-    pool = multiprocessing.Pool(n_processes)
-    primes = pool.map(get_primes, range(1, n + 1))
+
+def get_primes_mp(n):
+    pool = multiprocessing.Pool(processes=multiprocessing.cpu_count())
+    primes = pool.map(is_prime, range(2, n + 1))
     pool.close()
     pool.join()
-    return primes
+    return 
+    
+def benchmark(n):
+    import time
+    start = time.time()
+    get_primes(n)
+    end = time.time()
+    print(end - start)
+    start = time.time()
+    get_primes_mp(n)
+    end = time.time()
+    print(end - start)
+
+def benchmark_mp(n):
+    import time
+    start = time.time()
+    get_primes_mp(n)
+    end = time.time()
+    print(end - start)
+
