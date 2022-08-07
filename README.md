@@ -1,4 +1,4 @@
-# primes
+# prime-faster
 
 ## Description
 
@@ -7,17 +7,17 @@ This is a small program that finds all the prime numbers up to a given number fa
 ## Install
 
 ```bash
-$ pip install primes
+$ pip install prime-faster
 ```
 
 ## Usage
 
 ```python
-import primes
+import prime-faster
 
-print(primes.is_prime(7))
+print(prime-faster.is_prime(7))
 # True
-print(primes.get_primes(10))
+print(prime-faster.get_prime-faster(10))
 # [2, 3, 5, 7]
 ```
 

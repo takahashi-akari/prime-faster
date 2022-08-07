@@ -1,10 +1,10 @@
-# primes - Faster Prime Number Generator
+# prime-faster - Faster Prime Number Generator
 # Author: Takahashi Akari <akaritakahashioss@gmail.com>
 # License: MIT License Copyright (c) 2022 Takahashi Akari <akaritakahashioss@gmail.com>
 # Version: 0.0.1
 # Date: 2022-08-08
 # Python: 3.10.6
-# Description: primes - Faster Prime Number Generator
+# Description: prime-faster - Faster Prime Number Generator
 
 import math
 import numpy
@@ -21,7 +21,7 @@ def is_prime(n):
             return False
     return True
 
-def get_primes(n):
+def get_prime-faster(n):
     if n < 2:
         return []
     if n == 2:

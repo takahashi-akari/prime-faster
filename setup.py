@@ -1,10 +1,10 @@
-# primes - Faster Prime Number Generator
+# prime-faster - Faster Prime Number Generator
 # Author: Takahashi Akari <akaritakahashioss@gmail.com>
 # License: MIT License Copyright (c) 2022 Takahashi Akari <akaritakahashioss@gmail.com>
 # Version: 0.0.1
 # Date: 2022-08-08
 # Python: 3.10.6
-# Description: primes - Faster Prime Number Generator
+# Description: prime-faster - Faster Prime Number Generator
 
 import setuptools
 
@@ -14,14 +14,14 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-    name="primes",
+    name="prime-faster",
     version="0.0.1",
     author="Takahashi Akari",
     author_email="akaritakahashioss@gmail.com",
-    description="primes - Faster Prime Number Generator",
+    description="prime-faster - Faster Prime Number Generator",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/takahashi-akari/primes",
+    url="https://github.com/takahashi-akari/prime-faster",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
