@@ -1,7 +1,7 @@
 # prime-faster - Faster Prime Number Generator
 # Author: Takahashi Akari <akaritakahashioss@gmail.com>
 # License: MIT License Copyright (c) 2022 Takahashi Akari <akaritakahashioss@gmail.com>
-# Version: 0.0.3
+# Version: 0.0.4
 # Date: 2022-08-08
 # Python: 3.10.6
 # Description: prime-faster - Faster Prime Number Generator
@@ -15,7 +15,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="prime-faster",
-    version="0.0.3",
+    version="0.0.4",
     author="Takahashi Akari",
     author_email="akaritakahashioss@gmail.com",
     description="prime-faster - Faster Prime Number Generator",
