@@ -15,9 +15,9 @@ $ pip install prime-faster
 ```python
 import primefaster
 
-print(prime-faster.is_prime(7))
+print(primefaster.is_prime(7))
 # True
-print(prime-faster.get_prime-faster(10))
+print(primesfaster.get_prime(10))
 # [2, 3, 5, 7]
 ```
 
