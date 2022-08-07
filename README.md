@@ -17,7 +17,7 @@ import primefaster
 
 print(primefaster.is_prime(7))
 # True
-print(primesfaster.get_prime(10))
+print(primefaster.get_prime(10))
 # [2, 3, 5, 7]
 ```
 
