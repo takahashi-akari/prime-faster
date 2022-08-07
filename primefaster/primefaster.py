@@ -21,7 +21,7 @@ def is_prime(n):
             return False
     return True
 
-def get_prime-faster(n):
+def get_prime(n):
     if n < 2:
         return []
     if n == 2:

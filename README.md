@@ -13,7 +13,7 @@ $ pip install prime-faster
 ## Usage
 
 ```python
-import prime-faster
+import primefaster
 
 print(prime-faster.is_prime(7))
 # True
