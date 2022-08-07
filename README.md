@@ -19,11 +19,7 @@ print(primes.is_prime(7))
 # True
 print(primes.get_primes(10))
 # [2, 3, 5, 7]
-print(primes.get_primes_mp(10, 4))
-# [2, 3, 5, 7]
 ```
-
-mp is the multiprocessing version of the algorithm.
 
 ## License
 
