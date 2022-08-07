@@ -1,6 +1,6 @@
 # primes - Faster Prime Number Generator
 # Author: Takahashi Akari <akaritakahashioss@gmail.com>
-# License: MIT License (https://opensource.org/licenses/MIT)
+# License: MIT License Copyright (c) 2022 Takahashi Akari <akaritakahashioss@gmail.com>
 # Version: 0.0.1
 # Date: 2022-08-08
 # Python: 3.10.6
